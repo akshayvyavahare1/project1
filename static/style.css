@@ -1,0 +1,175 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+
+#navbar{
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    padding:  15px;
+    background-color: rgb(252, 58, 58);
+   
+
+}
+
+
+
+#navbar ul{
+
+    display: flex;
+
+    
+   
+
+}
+
+#navbar li {
+
+    
+    list-style: none;
+
+  
+
+}
+
+#navbar li a {
+
+    
+text-decoration: none;
+margin: 10px;
+padding: 13px 26px;
+color: aliceblue;
+font-family: cursive;
+
+
+}
+
+#navbar li a:hover{
+    color: black;
+}
+
+#intro{
+    border: 2px solid black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+font-weight: bold;
+
+    height: 585px;
+    background: url('/static/d4.jpg') no-repeat center center/cover;
+    
+   
+
+
+}
+
+#intro div{
+
+    text-shadow: 1px 1px 1px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+ #intro p {
+    color: rgb(214, 42, 42);
+    font-size: 35px;
+    text-shadow: 1px 1px 1px;
+
+ }
+   
+
+
+
+ 
+
+   
+
+
+
+
+/* #intro::before{
+
+    content: "";
+   background: url('/static/d1.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 650px;
+    z-index: -1;
+    opacity: 0.90;
+
+} */
+
+
+#sponsec{
+    
+    height: 350px;
+    align-items: center;
+    padding: 10px;
+    text-shadow: 1px 1px 1px;
+    font-size: 20px;
+    color: rgb(214, 42, 42);
+}
+
+
+#sponsec .mis{
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+#mian{
+
+    display: flex;
+}
+
+#sponsec .box{
+
+    border: 2px solid black;
+    height: 291px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 6px 5px;
+
+}
+
+#sponsec .box p{
+
+    margin: 12px 0px;
+    padding: 4px 20px;
+}
+
+
+#sponsec .box img{
+
+    height: 100px;
+}
+
+#sponsec .box nav{
+
+    padding: 18px 32px;
+}
+
+#foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 50px;
+    background-color: rgb(11, 11, 12);
+
+
+}
+
+

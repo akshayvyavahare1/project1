@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content      
+    nav#navbar.top  
+     ul
+      li.active #[a(href ="/") Home]
+      li #[a(href="/") About]
+      li #[a(href="/") Contact US]
+      li #[a(href="/") Join US]
+        
+section#intro 
+    
+    
+    div Akshay Dance school 
+     
+    p enjoy life with dance 
+
+section#sponsec 
+
+  
+    div.mis Our Mission
+    
+    div#mian
+      div.box 
+       h3 Free style 
+       img(src="./static/b1.png", alt="") 
+       p Freestyle is an inventive, creative dance style. It is unique and an artistic form of self-expression and dance that allows a dancer to react to their feelings
+      div.box 
+       h3 Indian classical dance 
+       img(src="./static/b2.jpg", alt="") 
+       nav
+         ul 
+           li Bharatanatyam 
+           li Kuchipudi
+           li Manipuri
+           li Odissi
+      div.box  
+       h3 Garba session
+       img(src="./static/b3.jpg", alt="") 
+       p   one hour garba class ones a week. Garba is a high intensity dance form.  
